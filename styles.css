@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #0077ff;
+    --gray: #edeef0;
+    --white: #fff;
+    --green: #4bb34b;
+    --black: #000;
+    --darck-gray: rgb(77, 76, 76);
+    --gray-2: rgb(201, 201, 201);
+    --gray-3: rgb(148, 146, 146);
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--gray);
+}
+
+.vk-enter {
+    width: 320px;
+    height: 100%;
+    margin: 15px auto;
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 32px 24px;
+}
+
+.vk-enter__page-block {
+    width: 320px;
+    height: 100%;
+    margin: 5px auto;
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.logo-icon {
+    color: var(--primary-color);
+    padding-left: 130px;
+}
+
+.logo-title {
+    margin-top: 16px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.e-mail {
+    width: 96%;
+    height: 36px;
+    background-color: var(--gray);
+    border-radius: 8px;
+    border: 1px solid var(--gray-2);
+    padding-left: 10px;
+}
+
+.e-mail:focus {
+    outline: 0;
+    border: 1px solid var(--primary-color);
+}
+
+.save-enter {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    padding-bottom: 5px;
+}
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.save-enter {
+    margin-bottom: 20px;
+}
+
+.save {
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 6px;
+    text-decoration: none;
+    color: var(--gray-3);
+}
+
+.right-icon {
+    position: relative;
+    align-self: flex-end;
+    color: var(--gray-3);
+}
+
+.right-icon:hover::after {
+    background: var(--white);
+    background-color: var(--white);
+    border: 0.5px solid var(--gray-2);
+    border-radius: 10px;
+    box-shadow: -5px 19px 49px 5px rgba(34, 60, 80, 0.2);
+    top: 30px;
+    left: -13px;
+    color: var(--black);
+    content: attr(title);
+    font-size: 13px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    z-index: 98;
+    width: 280px;
+}
+
+.btn-enter {
+    width: 100%;
+    height: 36px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    font-size: 14px;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.link-enter {
+    display: block;
+    text-decoration: none;
+    padding: 9px 139px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    background: var(--primary-color);
+    font-size: 14px;
+    color: var(--white);
+}
+
+.link-enter:hover {
+    background-color: #3690f7;
+}
+
+.or {
+    margin-top: 16px;
+    text-align: center;
+    color: var(--gray-2);
+    font-size: 13px;
+}
+
+.code {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 36px;
+    margin-top: 16px;
+    border: 1px solid var(--gray-2);
+    border-radius: 8px;
+    background-color: var(--white);
+}
+
+.qr-icon {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.link-svg {
+    color: var(--black);
+}
+
+.qr-code {
+    padding-top: 8px;
+}
+
+.qr {
+    text-decoration: none;
+    color: var(--black);
+    padding-right: 126px;
+    font-size: 14px;
+}
+
+
+/*   page-block   */
+
+.registration {
+    width: 100%;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid var(--green);
+    background-color: var(--green);
+    font-size: 14px;
+    color: var(--white);
+}
+
+.btn-registr {
+    display: block;
+    text-decoration: none;
+    padding: 9px 93px;
+    border-radius: 8px;
+    border: 1px solid var(--green);
+    background-color: var(--green);
+    font-size: 14px;
+    color: var(--white);
+}
+
+.btn-registr:hover {
+    background-color: #61b961;
+}
+
+.text {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--gray-2);
+}
+
+.after-registr {
+    text-align: center;
+}
+
+.know-more {
+    text-align: center;
+    font-size: 13px;
+    color: rgb(77, 76, 76);
+    text-decoration: none;
+}
+
+.know-more:hover {
+    text-decoration: underline;
+}
