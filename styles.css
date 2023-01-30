@@ -12,6 +12,7 @@
     --darck-gray: rgb(77, 76, 76);
     --gray-2: rgb(201, 201, 201);
     --gray-3: rgb(148, 146, 146);
+    --gray-hover: rgb(250, 247, 247)
 }
 
 body {
@@ -71,7 +72,7 @@ body {
 .save-enter {
     display: flex;
     justify-content: flex-start;
-    gap: 8px;
+    gap: 3px;
 }
 
 .check {
@@ -86,7 +87,7 @@ body {
 }
 
 .save-enter {
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .save {
@@ -94,7 +95,7 @@ body {
     vertical-align: text-top;
     font-size: 14px;
     line-height: 19px;
-    margin-left: 6px;
+    margin-left: 3px;
     text-decoration: none;
     color: var(--gray-3);
 }
@@ -115,20 +116,20 @@ body {
     color: var(--black);
     text-align: start;
     border-radius: 11px;
-    padding: 11px;
+    padding: 11px 12px;
     font-size: 13px;
     position: absolute;
     z-index: 1;
     top: 100%;
     left: 50%;
-    margin-left: -135px;
+    margin-left: -129px;
 }
 
 .right-icon .tooltip::after {
     content: "";
     position: absolute;
     bottom: 95%;
-    left: 56%;
+    left: 53%;
     margin-left: -5%;
     border-width: 5px;
     border-style: solid;
@@ -141,7 +142,7 @@ body {
 
 .bold-text {
     font-weight: bold;
-    display: inline;
+    margin-bottom: -15px;
 }
 
 .btn-enter {
@@ -158,7 +159,7 @@ body {
     background-color: #3690f7;
 }
 
-.link-enter {
+/* .link-enter {
     display: block;
     text-decoration: none;
     padding: 9px 139px;
@@ -172,7 +173,7 @@ body {
 
 .link-enter:hover {
     background-color: #3690f7;
-}
+} */
 
 .or {
     margin-top: 16px;
@@ -192,6 +193,10 @@ body {
     background-color: var(--white);
 }
 
+.code:hover {
+    background-color: var(--gray);
+}
+
 .qr-icon {
     padding-left: 10px;
     padding-top: 5px;
@@ -208,7 +213,7 @@ body {
 .qr {
     text-decoration: none;
     color: var(--black);
-    padding-right: 126px;
+    padding-right: 105px;
     font-size: 14px;
 }
 
@@ -230,7 +235,7 @@ body {
     ;
 }
 
-.btn-registr {
+/* .btn-registr {
     display: block;
     text-decoration: none;
     padding: 9px 93px;
@@ -243,7 +248,7 @@ body {
 
 .btn-registr:hover {
     background-color: #61b961;
-}
+} */
 
 .text {
     margin-top: 12px;
