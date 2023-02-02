@@ -133,7 +133,8 @@ body {
     margin-left: -5%;
     border-width: 5px;
     border-style: solid;
-    border-color: var(--white) transparent transparent;
+    transform: rotate(45deg);
+    color: var(--white);
 }
 
 .right-icon:hover .tooltip {
