@@ -128,7 +128,7 @@ body {
 .right-icon .tooltip::after {
     content: "";
     position: absolute;
-    bottom: 95%;
+    top: -5px;
     left: 53%;
     margin-left: -5%;
     border-width: 5px;
